@@ -2,8 +2,8 @@
   "name": "jzj-blog",
   "version": "1.0.0",
   "description": "进制匠技术分享",
-  "main": "index.js",
   "scripts": {
+    "dev": "vuepress dev docs",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
@@ -12,5 +12,8 @@
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^2.0.0-beta.41"
+  },
+  "dependencies": {
+    "vuepress-plugin-reading-time2": "^2.0.0-beta.24"
   }
 }
