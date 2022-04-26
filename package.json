@@ -1,0 +1,16 @@
+{
+  "name": "jzj-blog",
+  "version": "1.0.0",
+  "description": "进制匠技术分享",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": "https://github.com/jinzhijiang/blog",
+  "author": "HADES",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.41"
+  }
+}
