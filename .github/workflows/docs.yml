@@ -46,7 +46,7 @@ jobs:
 
       # 部署到服务
       - name: Deploy to Server
-        uses: jinzhijiang/docker-action-fabric@v1.0.2
+        uses: jinzhijiang/docker-action-fabric@v1.0.3
         with:
           rsakey: ${{ secrets.SSH_RSA }}
           port: ${{ secrets.SSH_PORT }}
